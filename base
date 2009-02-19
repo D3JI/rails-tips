@@ -1,5 +1,4 @@
 
-
 要扩展你的REST路由，可以通过设置map.resource的:collection，:member或者:new选项来实现：
 
 map.resources :projects, :collection => {:rss => 'get'}
@@ -11,3 +10,4 @@ map.resources :projects, :new => {:validate => 'post'}
 :member同:collection类似，不过它扩展针对单个资源的路由，因此它产生的路由为/projects/1/close（Edge Rails，Rails1.2.3为/projects/1;close），它也有一个URL Helper：close_project_path。
 
 :new也差不多，不过它针对的是那些已创建但尚未被保存的资源。
+fdasfdsa
